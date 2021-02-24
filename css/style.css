@@ -260,7 +260,11 @@ section.gray .section-title{
 }
 
 
-
+.skill:hover img{
+  height: 90%;
+  width: 90%;
+  transition 1s linear;
+}
 
 
 .time-line,.works{
