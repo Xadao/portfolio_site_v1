@@ -2,6 +2,7 @@ $(document).ready(()=>{
     $(window).scroll(()=>{
         if (this.scrollY > 20) {
             $(".navbar").addClass("sticky")
+           
         }else{
             $(".navbar").removeClass("sticky")
         }
@@ -11,4 +12,8 @@ $(document).ready(()=>{
         $(".navbar-menu").toggleClass("active")
     })
 } )
+
+$(window).on("load", function () {
+    $(".load-wrap").fadeOut("slow")
+})
 
